@@ -1,9 +1,8 @@
-import Image from "next/image";
-
-export default function Home() {
+const home = () => {
   return (
-    <h1>
-      Tahir Hassan
-    </h1>
+    <main className="">
+      <div className="bg-color-white size-100">Tahir</div>
+    </main>
   );
 }
+export default home;
